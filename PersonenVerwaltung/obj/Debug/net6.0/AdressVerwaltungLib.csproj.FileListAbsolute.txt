@@ -1,0 +1,12 @@
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\AdressVerwaltungLib.csproj.AssemblyReference.cache
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\AdressVerwaltungLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\AdressVerwaltungLib.AssemblyInfoInputs.cache
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\AdressVerwaltungLib.AssemblyInfo.cs
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\AdressVerwaltungLib.csproj.CoreCompileInputs.cache
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\bin\Debug\net6.0\AdressVerwaltungLib.deps.json
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\bin\Debug\net6.0\AdressVerwaltungLib.dll
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\bin\Debug\net6.0\AdressVerwaltungLib.pdb
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\AdressVerwaltungLib.dll
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\refint\AdressVerwaltungLib.dll
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\AdressVerwaltungLib.pdb
+C:\Users\i40011221\source\repos\AdressVerwaltung\PersonenVerwaltung\obj\Debug\net6.0\ref\AdressVerwaltungLib.dll

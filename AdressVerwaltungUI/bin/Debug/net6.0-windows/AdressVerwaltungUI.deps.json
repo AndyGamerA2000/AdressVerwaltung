@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AdressVerwaltungUI/1.0.0": {
+        "dependencies": {
+          "AdressVerwaltungLib": "1.0.0"
+        },
+        "runtime": {
+          "AdressVerwaltungUI.dll": {}
+        }
+      },
+      "AdressVerwaltungLib/1.0.0": {
+        "runtime": {
+          "AdressVerwaltungLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdressVerwaltungUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdressVerwaltungLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
