@@ -44,7 +44,7 @@ namespace TestAdressverwaltungTest
             person1.Firstname = "dummy";
             person1.Personalnumber = 420;
             adressvvrwaltung.meineVerwaltung.addPerson(person1);
-            Person person2 = adressvvrwaltung.meineVerwaltung.GetPerson(420);
+            Person personadressvvrwaltung2 = adressvvrwaltung.meineVerwaltung.GetPerson(420);
             adressvvrwaltung.meineVerwaltung.deletePerson(420);
             int z = adressvvrwaltung.meineVerwaltung.adressverwaltung.Count();
             Assert.AreEqual(0, z);
@@ -64,6 +64,38 @@ namespace TestAdressverwaltungTest
             adressvvrwaltung.meineVerwaltung.EditPerson(person2, "Dummy2.0", "", new DateTime( 2022, 2, 2));
             Assert.AreNotEqual(person2, persondummy);
         }
+        [TestMethod]
+        public void TestGetAge_Dummy()
+        {
+            Adressvvrwaltung_Verwaltungen adressvvrwaltung = new Adressvvrwaltung_Verwaltungen();
+            Person person = new Person();
+            person.birthday = new DateTime(2009, 02, 02);
+            string BD = person.GetAge();
+            string birthday = BD.ToString();
+            Assert.AreEqual("13", birthday);
+        }
+        [TestMethod]
+        public void TestGetAge2_Dummy()
+        {
+            Adressvvrwaltung_Verwaltungen adressvvrwaltung = new Adressvvrwaltung_Verwaltungen();
+            Person person = new Person();
+            person.birthday = new DateTime(2009, 12, 07);
+            string BD = person.GetAge();
+            string birthday = BD.ToString();
+            Assert.AreEqual("13", birthday);
+
+        }
+        [TestMethod]
+        public void TestGetAge3_Dummy()
+        {
+            Adressvvrwaltung_Verwaltungen adressvvrwaltung = new Adressvvrwaltung_Verwaltungen();
+            Person person = new Person();
+            person.birthday = new DateTime(2009, 12, 08);
+            string BD = person.GetAge();
+            string birthday = BD.ToString();
+            Assert.AreEqual("12", birthday);
+        }
+
 
     }
 }
